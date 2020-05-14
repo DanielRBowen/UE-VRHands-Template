@@ -2,6 +2,8 @@
 
 UE4 4.25, C++ template, Oculus supported unless modified, can support other headsets if OpenXR plugin works and is enabled.
 
+[OpenXR production ready](https://trello.com/c/p0ROFB2t) is a card for future release on the [UE4 Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
+
 A newer more complete starter version without the objects is <a href="https://github.com/DanielRBowen/UE4-VR-XPlatform-Menu" target="_blank">here</a>.
 
 This is a Unreal Engine 4 template for VR Headsets with motion controllers. It features dynamic hands, touch screens, grabbable objects, and locomotion.
