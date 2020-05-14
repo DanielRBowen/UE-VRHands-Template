@@ -8,7 +8,7 @@ This is a Unreal Engine 4 template for VR Headsets with motion controllers. It f
 
 The template supports UE4 version 4.25. because the [motion controller keys were depreciated](https://docs.unrealengine.com/en-US/Platforms/VR/DevelopVR/MotionControllerKeyDeprecation/index.html) for OpenXR support, I had to convert this into a C++ template in order to access the Oculus Motion controller EKey structs so that the hands can be switched. This only supports Oculus unless you modify it yourself or the OpenXR plugin starts working and emulates the mapping to other headsets.
 
-If you are using the UE4 launcher, put the template into UE4 by putting the FP_VRHandsP folder into: 
+If you are using the UE4 launcher, put the template into UE4 by putting the FP_VRHands folder into: 
 C:\Program Files\Epic Games\UE_4.25\Templates
 
 <a href="https://docs.unrealengine.com/en-US/Engine/Basics/Projects/CreatingTemplates" target="_blank">See Creating Templates for help setting up.</a>
