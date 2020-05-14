@@ -1,13 +1,15 @@
 # UE4-VRHands-Template
 
+UE4 4.25, C++ template, Oculus supported unless modified, can support other headsets if OpenXR plugin works and is enabled.
+
 A newer more complete starter version without the objects is <a href="https://github.com/DanielRBowen/UE4-VR-XPlatform-Menu" target="_blank">here</a>.
 
 This is a Unreal Engine 4 template for VR Headsets with motion controllers. It features dynamic hands, touch screens, grabbable objects, and locomotion.
 
-The template supports UE4 version 4.21
+The template supports UE4 version 4.25. because the [motion controller keys were depreciated](https://docs.unrealengine.com/en-US/Platforms/VR/DevelopVR/MotionControllerKeyDeprecation/index.html) for OpenXR support, I had to convert this into a C++ template in order to access the Oculus Motion controller EKey structs so that the hands can be switched. This only supports Oculus unless you modify it yourself or the OpenXR plugin starts working and emulates the mapping to other headsets.
 
-If you are using the UE4 launcher, put the template into UE4 by putting the TP_VRHands_BP folder into: 
-C:\Program Files\Epic Games\UE_4.21\Templates
+If you are using the UE4 launcher, put the template into UE4 by putting the FP_VRHandsP folder into: 
+C:\Program Files\Epic Games\UE_4.25\Templates
 
 <a href="https://docs.unrealengine.com/en-US/Engine/Basics/Projects/CreatingTemplates" target="_blank">See Creating Templates for help setting up.</a>
 
@@ -15,7 +17,8 @@ When making a new map with VRHands functionality, use the VRPawn as a pawn, plac
 
 For grabbable objects, create an actor with a Grabbable component and static mesh then set the grab kind for the Grabbable component at event begin play. See the CubeBP for example.
 
-This uses BP from this <a href="https://youtu.be/lMieSD_7nSg" target="_blank">Arm Swinger Style Movement Tutorial for Unreal 4 video</a>.
+
+This has the BP from this <a href="https://youtu.be/lMieSD_7nSg" target="_blank">Arm Swinger Style Movement Tutorial for Unreal 4 video</a> but is not wired up.
 
 It also uses this <a href="https://youtu.be/bWXI91FdMtk" target="_blank">Ue4 Tutorial - Moving an Object along a path using a Spline Track video</a>.
 
