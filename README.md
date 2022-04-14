@@ -16,7 +16,9 @@ C:\Program Files\Epic Games\UE_5.0\Templates
 
 When making a new map with VRHands functionality, use the VRPawn as a pawn, place a nav mesh to allow the pawn to move. For the grabbable object highlight, place a post process volume with the Highlight material in the Post Process Materials array under Rendering Features category and make sure you have the correct rendering settings in the project settings (forward shading, vertex fogging for opaque, custom depth-stencil pass set to enabled with stencil). If you want a cursor above the grabbable object then just wire up the cursor in the highlight function of the Grabbable component.
 
-When making a new VR Menu Actor which is to be displayed when the game is paused, you will need to set the Tickable when paused attribue to true on the widget component.
+When making a new VR Menu Actor which is to be displayed when the game is paused, you will need to set the Tickable when paused attribue to true on the widget component as well as the VR actor itself.
+
+There are a bunch of blueprint interfaces which I didn't clean up when migrating from the project I was working on.
 
 For grabbable objects, create an actor with a Grabbable component and static mesh then set the grab kind for the Grabbable component at event begin play. See the CubeBP for example.
 
