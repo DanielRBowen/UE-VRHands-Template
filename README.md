@@ -5,7 +5,7 @@ UE4 5.0, Oculus CV1 supported unless modified for other platforms, can support o
 
 I still need to update the trimmed down starter version without the objects is <a href="https://github.com/DanielRBowen/UE4-VR-XPlatform-Menu" target="_blank">here</a> to UE5.
 
-This is a Unreal Engine 4 template for VR Headsets with motion controllers. It features dynamic hands, touch screens, grabbable objects, and locomotion.
+This is a Unreal Engine 5 template for VR Headsets with motion controllers. It features dynamic hands, touch screens, grabbable objects, and locomotion.
 
 To convert to OpenXR I had to modify it to use axis inputs and and control the movement direction based depending on a negative or positive axis value.
 
