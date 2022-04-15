@@ -1,6 +1,6 @@
 # UE5-VRHands-Template
 
-UE4 5.0, Oculus CV1 supported unless modified for other platforms, can support other headsets because of OpenXR
+UE 5.0, Oculus CV1 supported unless modified for other platforms, can support other headsets because of OpenXR
 
 
 I still need to update the trimmed down starter version without the objects is <a href="https://github.com/DanielRBowen/UE4-VR-XPlatform-Menu" target="_blank">here</a> to UE5.
