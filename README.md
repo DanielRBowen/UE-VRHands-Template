@@ -1,4 +1,4 @@
-# UE5-VRHands-Template
+# UE-VRHands-Template
 
 UE 5.0, Oculus CV1 supported unless modified for other platforms, can support other headsets because of OpenXR
 
